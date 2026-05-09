@@ -36,10 +36,10 @@ class HomePage extends React.Component {
 					</div>
                     <div className=
 							"col-12 col-sm-12 col-md-12 col-lg-6 ">
-                        <h1 className="textSpacing">Upcoming Events</h1>
-                        <h3 className="textSpacing">Party planner App</h3>
-                        <h3 className="textSpacing">And</h3>
-                        <h3 className="textSpacing">How to contribute to open source project</h3>
+                        <h2 className="textSpacing">Hi, I'm Satyam Rastogi</h2>
+                        <p className="textSpacing">Back-end Engineer with 7+ years of experience building scalable micro-services, distributed systems, onboaring process, and migration from old to new systems.</p>
+                        <p className="textSpacing">Currently working as <strong>SDE-2 at Booking.com</strong> in the Offer Service team, Amsterdam.</p>
+                        <p className="textSpacing">Passionate about clean architecture, event-driven systems, data quality , onboarding process improvements, and delivering impactful backend solutions.</p>
                     </div>
 
                     </div>

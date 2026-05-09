@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
 import read_details from './utils/read_details';
+import ExperiencePage from './pages/ExperiencePage';
 
 
 class App extends React.Component {
@@ -32,6 +33,9 @@ class App extends React.Component {
       },
       blog:{
         title : 'Projects '
+      },
+      experience: {
+        title: 'Experience'
       }
     }
   }
@@ -48,6 +52,7 @@ class App extends React.Component {
               <Nav className="ml-auto" style={{marginRight:"5%"}}>
                 <Link className="nav-link" to="/home">Home</Link>
                 <Link className="nav-link" to="/project">Project</Link>
+                <Link className="nav-link" to="/experience">Experience</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
@@ -58,6 +63,7 @@ class App extends React.Component {
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} about={userDetails.about} skills={userDetails.skills} />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
           <Route path="/project" exact render={() => <BlogPage title={this.state.blog.title} items={userDetails.blogs.items}/>} />
+          <Route path="/experience" exact render={() => <ExperiencePage title={this.state.experience.title} experience={userDetails.experience}/>} />
           <Route render={() => <Redirect to="/home"/>}/>
           </Switch>
           <Footer userDetail={userDetails} />

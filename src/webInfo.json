@@ -1,83 +1,83 @@
 {
     "userName" : "Satyam Rastogi",
     "about" :[
-        "Hello, my name is Satyam Rastogi. I'm a full stack developer.",
-        "I worked on many project's Realted to backend development and frontend development",
-        "Currently I'm working in Oracle as a Associate Software Developer ",
-        "Technology i worked on React for frontend development",
-        "Spring boot for backend development ",
-        "Database used Oracle database ,My SQL, MongoDB, Redis",
-        "Other Technology like Elastic Stack for Search, Kafka For event handling,Docker for scaling,Jenkins deployment",
-        "Worked on Monolithic as well as Micro-Service architecture",    
-        "I'm constantly learning new things.Currently those things include gaining more experience with React, Express JS, and Node JS"
+        "Hello, I'm Satyam Rastogi, Senior Back-end Engineer with 7+ years of experience building scalable micro-services and distributed systems. onboaring process and migration from old to new systems",
+        "Currently working as SDE-2 at Booking.com in Amsterdam, Building the Offer Service — responsible for providing and validating availability, and creating a separate versioned domain structure for availability, pricing, and policy that is extendable and maintainable across the new flow.",
+        "Created partner onboarding and single form combining all the different compliance reducing onboaring time from weeks to days. for new compliance only new qusetion were asked and consent taken to fast track the process.",
+        "Previously at Flat White Capital (IndiaGold) as a Senior Software Developer, building loan origination systems, KYC integrations, and digital gold loan features.",
+        "Also worked at Pasarpolis on policy commission disbursement and policy lifecycle management using Python, Django, and Kubernetes.",
+        "Started my career at Oracle Financial Services Software (OFSS) building patch automation tools on the OUAF platform.",
+        "Core expertise: Java, Spring Boot, Spring Boot Reactive, Kafka, MySQL, Amazon RDS/SQS, Micro-service architecture, Functional Programming.",
+        "Strong experience with testing tools like Wiremock and Mockito, caching strategies, and event-driven design patterns.",
+        "I'm continuously growing currently exploring reactive programming patterns and ai driven efficiency improvements for any project"
     ],
-    "footer_content" : "My name is Satyam Rastogi. I'm a full stack engineer with experience in Spring boot, Docker, React",
-    "working_position" : "Associate Software Developer",
+    "footer_content" : "Satyam Rastogi — Senior Back-end Engineer | Spring Boot • Kafka • Micro-services • Amsterdam",
+    "working_position" : "SDE - 2 at Booking.com",
     "skills":[
         {
             "id":1,
             "name":"JAVA",
-            "mastery":60
+            "mastery":90
         },
         {
             "id":2,
-            "name":"PYTHON",
-            "mastery":60
+            "name":"SPRING BOOT",
+            "mastery":90
         },
         {
             "id":3,
-            "name":"C++",
-            "mastery":60
+            "name":"SPRING REACTIVE",
+            "mastery":80
         },
         {
             "id":4,
-            "name":"JAVASCRIPT",
-            "mastery":50
+            "name":"KAFKA",
+            "mastery":85
         },
         {
             "id":5,
             "name":"MYSQL",
-            "mastery":70
+            "mastery":80
         },
         {
             "id":6,
-            "name":"ORACLE DB",
-            "mastery":70
+            "name":"REDIS / CACHING",
+            "mastery":75
         },
         {
             "id":7,
-            "name":"REDIS",
-            "mastery":70
-        },
-        {
-            "id":8,
-            "name":"ELASTIC",
-            "mastery":60
-        },
-        {
-            "id":9,
-            "name":"KAFKA",
-            "mastery":70
-        },
-        {
-            "id":10,
-            "name":"DOCKER",
+            "name":"MICRO-SERVICES",
             "mastery":90
         },
         {
+            "id":8,
+            "name":"DOCKER",
+            "mastery":85
+        },
+        {
+            "id":9,
+            "name":"KUBERNETES",
+            "mastery":65
+        },
+        {
+            "id":10,
+            "name":"AMAZON RDS / SQS",
+            "mastery":70
+        },
+        {
             "id":11,
-            "name":"ZOO-KEEPER",
-            "mastery":60
+            "name":"MOCKITO / WIREMOCK",
+            "mastery":80
         },
         {
             "id":12,
-            "name":"JENKINS",
-            "mastery":70
+            "name":"PYTHON",
+            "mastery":65
         },
         {
             "id":13,
             "name":"GIT",
-            "mastery" : 80
+            "mastery":85
         }
     ],
     "blogs" :{
@@ -144,6 +144,66 @@
         { "title": "Blog", "path": "/blog","icon_name" :"Book" },
         { "title": "About", "path": "/about","icon_name" :"Info" },
         { "title": "Contact Me", "path": "/contact" ,"icon_name" :"Mail"}
+    ],
+    "experience":[
+        {
+            "id": 1,
+            "title": "SDE - 2",
+            "company": "Booking.com",
+            "location": "Amsterdam",
+            "period": "May 2023 - Present",
+            "description": [
+                "Team 1 — Fintech, Partner Compliance Onboarding (May 2023 – ~Nov 2023):",
+                "Worked on onboarding new partners to compliance — handling validation, risk analysis, and collecting partner information required for different financial regulations.",
+                "Created partner onboarding and single form combining all the different compliance reducing onboaring time from weeks to days. for new compliance only new qusetion were asked and consent taken to fast track the process.",
+                "Team 2 — Offer Service, Consumer Platform (~Nov 2023 – Present, 1.5 years):",
+                "Building the Offer Service responsible for providing and validating availability across the platform.",
+                "Built unified data pipelines for the FE to display room rates and prices, and created standard domain objects for clear data ownership and segregation.",
+                "Designing a separate versioned domain structure for availability, pricing, and policy — extendable and version-controlled for the new offer flow.",
+                "Working with inventory, availability, pricing, policy, and other data streams to aggregate and share structured data with the FE.",
+                "Create and lead unifined data quality tooling for when moving from old flow to the new flow we can maintain data quality.",
+                "Helped deliver an AI driven workflow to improve work efficiency and overall productivity for the team."
+            ],
+            "technologies": ["Micro-service", "Spring Boot", "Spring Boot Reactive", "MySQL", "Kafka", "Functional Programming", "Wiremock", "Mockito", "Caching", "Git"]
+        },
+        {
+            "id": 2,
+            "title": "Senior Software Developer",
+            "company": "Flat White Capital (IndiaGold)",
+            "location": "Abu Dhabi",
+            "period": "May 2021 - May 2023",
+            "description": [
+                "Working as a back-end engineer in the loan-origination team.",
+                "The Loan origination team helps in creating loan with different lender using different configuration.",
+                "Working with third-party system integrations and creating new features for the IndiaGold app such as digital gold loan and loan creation, KYC integration, digital KYC etc."
+            ],
+            "technologies": ["Micro-service", "Spring Boot", "MySQL", "Amazon RDS", "Amazon SQS", "Jitpack", "Git"]
+        },
+        {
+            "id": 3,
+            "title": "Software Developer Engineer",
+            "company": "Pasarpolis",
+            "location": "Gurugram",
+            "period": "Sep 2020 - May 2021",
+            "description": [
+                "Working as a back-end engineer in an agency team.",
+                "Working with the policy commission disbursement, policy creation and different states involved."
+            ],
+            "technologies": ["Micro-service", "Python", "React", "Django", "Kubernetes", "Git"]
+        },
+        {
+            "id": 4,
+            "title": "Associate Software Developer",
+            "company": "OFSS - Oracle Financial Services Software",
+            "location": "Mumbai",
+            "period": "Aug 2019 - Sep 2020",
+            "description": [
+                "Working as an Associate Software Developer in the OUAF team.",
+                "Oracle Utility Application Framework helps to create production level application that can be used for billing with large user base.",
+                "Created the patch automation tool in Spring Boot which uses BugDb API to check all the validation to verify the patch of the Bug."
+            ],
+            "technologies": ["Monolith", "Java", "JavaScript", "Hibernate", "SVN"]
+        }
     ],
     "follow_us":[
         {
